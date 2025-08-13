@@ -1,8 +1,9 @@
+import { Banner } from "@/component/Banner"
 
 const page = () => {
   return (
     <>
-    <h1>hello tthere</h1>
+    <Banner />
     </>
   )
 }

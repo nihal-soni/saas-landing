@@ -1,9 +1,18 @@
 
-
 export const Banner = () => {
-    return (
-        <section>
-            
-        </section>
-    )
-}
+  return (
+    <div className="py-3 text-center bg-[linear-gradient(to_right,#FCD6FF,#29D8FF,#FFFD80,#F89ABF,#FCD6FF)]">
+      <div className="container mx-auto">
+        <p className="font-medium">
+         <span className="hidden sm:inline"> Introducing a completely redesigned interface -</span>
+        <a
+          href="#"
+          className="underline underline-offset-4 font-medium hover:text-gray-800 transition-colors"
+          >
+          Explore the demo
+        </a>
+          </p>
+      </div>
+    </div>
+  );
+};
